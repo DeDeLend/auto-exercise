@@ -1,13 +1,11 @@
-# Sample Hardhat Project
+Users can set take-profit or stop-loss orders using DeDeLend's auto-exercise contract. DeDeLend doesn't rely on any scripts or servers; auto-exercise is a fully on-chain solution powered by Chainlink Automation.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+- [GitHub](https://github.com/DeDeLend/auto-exercise) — Source code
+- [Auto-Exerciser](https://arbiscan.io/address/0x83ca705E8eEE363b16935D5FCbC3514530d41C74#code) — Contract
+- [Upkeep](https://automation.chain.link/arbitrum/105459079710918252270963479132636945083939458524885912784487020071204995125403) — Chainlink Automation that executes transactions
 
-Try running some of the following tasks:
+To set up take-profit or stop-loss, we need to:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+1. Find the Option ID (the number of your option)
+2. Grant approval
+3. Set up take-profit or stop-loss.
