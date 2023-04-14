@@ -1,0 +1,232 @@
+{
+  "address": "0xa0d8428bF9A0d5F5951Fe125edbb3f05dEe0AB65",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_takeProfit",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes",
+          "name": "checkData",
+          "type": "bytes"
+        }
+      ],
+      "name": "checkUpkeep",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "upkeepNeeded",
+          "type": "bool"
+        },
+        {
+          "internalType": "bytes",
+          "name": "performData",
+          "type": "bytes"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes",
+          "name": "performData",
+          "type": "bytes"
+        }
+      ],
+      "name": "performUpkeep",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "renounceOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "takeProfit",
+      "outputs": [
+        {
+          "internalType": "contract ITakeProfit",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xa68d1a06c9586e05bbd5fd6e4d1a6c9a796917afaa0a92b433f4ba524160c2d1",
+  "receipt": {
+    "to": null,
+    "from": "0x8B57f3a9bDf2cfdBF9B2627ff8bEa86fB5641a50",
+    "contractAddress": "0xa0d8428bF9A0d5F5951Fe125edbb3f05dEe0AB65",
+    "transactionIndex": 5,
+    "gasUsed": "6671330",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000800000000000000000800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000400000000000000000000020000000000000000000800000000000000000000000000000000400000000000000000000000000000000000000000000000000000000008000000000000000800000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000800000000000000020000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0xc4a01b8198da4fc52b4e693122695164ec810ab2b661937809d43bce6790f32d",
+    "transactionHash": "0xa68d1a06c9586e05bbd5fd6e4d1a6c9a796917afaa0a92b433f4ba524160c2d1",
+    "logs": [
+      {
+        "transactionIndex": 5,
+        "blockNumber": 80370101,
+        "transactionHash": "0xa68d1a06c9586e05bbd5fd6e4d1a6c9a796917afaa0a92b433f4ba524160c2d1",
+        "address": "0xa0d8428bF9A0d5F5951Fe125edbb3f05dEe0AB65",
+        "topics": [
+          "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x0000000000000000000000008b57f3a9bdf2cfdbf9b2627ff8bea86fb5641a50"
+        ],
+        "data": "0x",
+        "logIndex": 35,
+        "blockHash": "0xc4a01b8198da4fc52b4e693122695164ec810ab2b661937809d43bce6790f32d"
+      }
+    ],
+    "blockNumber": 80370101,
+    "cumulativeGasUsed": "10202715",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "0x83ca705E8eEE363b16935D5FCbC3514530d41C74"
+  ],
+  "numDeployments": 1,
+  "solcInputHash": "86674f180415464a983db6897c797aae",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.18+commit.87f61d96\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_takeProfit\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"previousOwner\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"OwnershipTransferred\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"bytes\",\"name\":\"checkData\",\"type\":\"bytes\"}],\"name\":\"checkUpkeep\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"upkeepNeeded\",\"type\":\"bool\"},{\"internalType\":\"bytes\",\"name\":\"performData\",\"type\":\"bytes\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes\",\"name\":\"performData\",\"type\":\"bytes\"}],\"name\":\"performUpkeep\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"renounceOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"takeProfit\",\"outputs\":[{\"internalType\":\"contract ITakeProfit\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferOwnership\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"checkUpkeep(bytes)\":{\"details\":\"To ensure that it is never called, you may want to add the cannotExecute modifier from KeeperBase to your implementation of this method.\",\"params\":{\"checkData\":\"specified in the upkeep registration so it is always the same for a registered upkeep. This can easily be broken down into specific arguments using `abi.decode`, so multiple upkeeps can be registered on the same contract and easily differentiated by the contract.\"},\"returns\":{\"performData\":\"bytes that the keeper should call performUpkeep with, if upkeep is needed. If you would like to encode data to decode later, try `abi.encode`.\",\"upkeepNeeded\":\"boolean to indicate whether the keeper should call performUpkeep or not.\"}},\"owner()\":{\"details\":\"Returns the address of the current owner.\"},\"performUpkeep(bytes)\":{\"details\":\"The input to this method should not be trusted, and the caller of the method should not even be restricted to any single registry. Anyone should be able call it, and the input should be validated, there is no guarantee that the data passed in is the performData returned from checkUpkeep. This could happen due to malicious keepers, racing keepers, or simply a state change while the performUpkeep transaction is waiting for confirmation. Always validate the data passed in.\",\"params\":{\"performData\":\"is the data which was passed back from the checkData simulation. If it is encoded, it can easily be decoded into other types by calling `abi.decode`. This data should not be trusted, and should be validated against the contract's current state.\"}},\"renounceOwnership()\":{\"details\":\"Leaves the contract without owner. It will not be possible to call `onlyOwner` functions anymore. Can only be called by the current owner. NOTE: Renouncing ownership will leave the contract without an owner, thereby removing any functionality that is only available to the owner.\"},\"transferOwnership(address)\":{\"details\":\"Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner.\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"checkUpkeep(bytes)\":{\"notice\":\"method that is simulated by the keepers to see if any work actually needs to be performed. This method does does not actually need to be executable, and since it is only ever simulated it can consume lots of gas.\"},\"performUpkeep(bytes)\":{\"notice\":\"method that is actually executed by the keepers, via the registry. The data returned by the checkUpkeep simulation will be passed into this method to actually be executed.\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/Upkeep.sol\":\"UpkeepTakeProfit\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"@chainlink/contracts/src/v0.8/interfaces/AutomationCompatibleInterface.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\ninterface AutomationCompatibleInterface {\\n  /**\\n   * @notice method that is simulated by the keepers to see if any work actually\\n   * needs to be performed. This method does does not actually need to be\\n   * executable, and since it is only ever simulated it can consume lots of gas.\\n   * @dev To ensure that it is never called, you may want to add the\\n   * cannotExecute modifier from KeeperBase to your implementation of this\\n   * method.\\n   * @param checkData specified in the upkeep registration so it is always the\\n   * same for a registered upkeep. This can easily be broken down into specific\\n   * arguments using `abi.decode`, so multiple upkeeps can be registered on the\\n   * same contract and easily differentiated by the contract.\\n   * @return upkeepNeeded boolean to indicate whether the keeper should call\\n   * performUpkeep or not.\\n   * @return performData bytes that the keeper should call performUpkeep with, if\\n   * upkeep is needed. If you would like to encode data to decode later, try\\n   * `abi.encode`.\\n   */\\n  function checkUpkeep(bytes calldata checkData) external returns (bool upkeepNeeded, bytes memory performData);\\n\\n  /**\\n   * @notice method that is actually executed by the keepers, via the registry.\\n   * The data returned by the checkUpkeep simulation will be passed into\\n   * this method to actually be executed.\\n   * @dev The input to this method should not be trusted, and the caller of the\\n   * method should not even be restricted to any single registry. Anyone should\\n   * be able call it, and the input should be validated, there is no guarantee\\n   * that the data passed in is the performData returned from checkUpkeep. This\\n   * could happen due to malicious keepers, racing keepers, or simply a state\\n   * change while the performUpkeep transaction is waiting for confirmation.\\n   * Always validate the data passed in.\\n   * @param performData is the data which was passed back from the checkData\\n   * simulation. If it is encoded, it can easily be decoded into other types by\\n   * calling `abi.decode`. This data should not be trusted, and should be\\n   * validated against the contract's current state.\\n   */\\n  function performUpkeep(bytes calldata performData) external;\\n}\\n\",\"keccak256\":\"0x67076747c6f66d8d43472a56e72879c350056bff82e069addaf9064922863340\",\"license\":\"MIT\"},\"@openzeppelin/contracts/access/Ownable.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts (last updated v4.7.0) (access/Ownable.sol)\\n\\npragma solidity ^0.8.0;\\n\\nimport \\\"../utils/Context.sol\\\";\\n\\n/**\\n * @dev Contract module which provides a basic access control mechanism, where\\n * there is an account (an owner) that can be granted exclusive access to\\n * specific functions.\\n *\\n * By default, the owner account will be the one that deploys the contract. This\\n * can later be changed with {transferOwnership}.\\n *\\n * This module is used through inheritance. It will make available the modifier\\n * `onlyOwner`, which can be applied to your functions to restrict their use to\\n * the owner.\\n */\\nabstract contract Ownable is Context {\\n    address private _owner;\\n\\n    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);\\n\\n    /**\\n     * @dev Initializes the contract setting the deployer as the initial owner.\\n     */\\n    constructor() {\\n        _transferOwnership(_msgSender());\\n    }\\n\\n    /**\\n     * @dev Throws if called by any account other than the owner.\\n     */\\n    modifier onlyOwner() {\\n        _checkOwner();\\n        _;\\n    }\\n\\n    /**\\n     * @dev Returns the address of the current owner.\\n     */\\n    function owner() public view virtual returns (address) {\\n        return _owner;\\n    }\\n\\n    /**\\n     * @dev Throws if the sender is not the owner.\\n     */\\n    function _checkOwner() internal view virtual {\\n        require(owner() == _msgSender(), \\\"Ownable: caller is not the owner\\\");\\n    }\\n\\n    /**\\n     * @dev Leaves the contract without owner. It will not be possible to call\\n     * `onlyOwner` functions anymore. Can only be called by the current owner.\\n     *\\n     * NOTE: Renouncing ownership will leave the contract without an owner,\\n     * thereby removing any functionality that is only available to the owner.\\n     */\\n    function renounceOwnership() public virtual onlyOwner {\\n        _transferOwnership(address(0));\\n    }\\n\\n    /**\\n     * @dev Transfers ownership of the contract to a new account (`newOwner`).\\n     * Can only be called by the current owner.\\n     */\\n    function transferOwnership(address newOwner) public virtual onlyOwner {\\n        require(newOwner != address(0), \\\"Ownable: new owner is the zero address\\\");\\n        _transferOwnership(newOwner);\\n    }\\n\\n    /**\\n     * @dev Transfers ownership of the contract to a new account (`newOwner`).\\n     * Internal function without access restriction.\\n     */\\n    function _transferOwnership(address newOwner) internal virtual {\\n        address oldOwner = _owner;\\n        _owner = newOwner;\\n        emit OwnershipTransferred(oldOwner, newOwner);\\n    }\\n}\\n\",\"keccak256\":\"0xa94b34880e3c1b0b931662cb1c09e5dfa6662f31cba80e07c5ee71cd135c9673\",\"license\":\"MIT\"},\"@openzeppelin/contracts/utils/Context.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n// OpenZeppelin Contracts v4.4.1 (utils/Context.sol)\\n\\npragma solidity ^0.8.0;\\n\\n/**\\n * @dev Provides information about the current execution context, including the\\n * sender of the transaction and its data. While these are generally available\\n * via msg.sender and msg.data, they should not be accessed in such a direct\\n * manner, since when dealing with meta-transactions the account sending and\\n * paying for execution may not be the actual sender (as far as an application\\n * is concerned).\\n *\\n * This contract is only required for intermediate, library-like contracts.\\n */\\nabstract contract Context {\\n    function _msgSender() internal view virtual returns (address) {\\n        return msg.sender;\\n    }\\n\\n    function _msgData() internal view virtual returns (bytes calldata) {\\n        return msg.data;\\n    }\\n}\\n\",\"keccak256\":\"0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7\",\"license\":\"MIT\"},\"contracts/Upkeep.sol\":{\"content\":\"/**\\n * SPDX-License-Identifier: GPL-3.0-or-later\\n * DeDeLend\\n * Copyright (C) 2023 DeDeLend\\n *\\n * This program is free software: you can redistribute it and/or modify\\n * it under the terms of the GNU General Public License as published by\\n * the Free Software Foundation, either version 3 of the License, or\\n * (at your option) any later version.\\n *\\n * This program is distributed in the hope that it will be useful,\\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\\n * GNU General Public License for more details.\\n *\\n * You should have received a copy of the GNU General Public License\\n * along with this program.  If not, see <http://www.gnu.org/licenses/>.\\n **/\\n \\npragma solidity ^0.8.7;\\nimport \\\"@chainlink/contracts/src/v0.8/interfaces/AutomationCompatibleInterface.sol\\\";\\nimport \\\"@openzeppelin/contracts/access/Ownable.sol\\\";\\n\\ninterface ITakeProfit {\\n    function checkTakeProfit(uint256 tokenId) external view returns (bool);\\n    function executeTakeProfit(uint256 tokenId) external;\\n    function indexTokenToTokenId(uint256 indexToken) external view returns (uint256);\\n}\\n\\ncontract UpkeepTakeProfit is \\n    AutomationCompatibleInterface, \\n    Ownable\\n{\\n    ITakeProfit public takeProfit;\\n    constructor(\\n        address _takeProfit\\n    ) { \\n        takeProfit = ITakeProfit(_takeProfit);\\n    }\\n    function checkUpkeep(\\n        bytes calldata checkData\\n    )\\n        external\\n        view\\n        override\\n        returns (bool upkeepNeeded, bytes memory performData)\\n    {\\n        (uint256 lowerBound, uint256 upperBound) = abi.decode(\\n            checkData,\\n            (uint256, uint256)\\n        );\\n        uint256 counter;\\n        for (uint256 i = 0; i < upperBound - lowerBound + 1; i++) {\\n            if (takeProfit.checkTakeProfit(takeProfit.indexTokenToTokenId(lowerBound + i))) {\\n                counter++;\\n            }\\n            if (counter == 2) {\\n                break;\\n            }\\n        }\\n\\n        uint256[] memory indexes = new uint256[](counter);\\n\\n        upkeepNeeded = false;\\n        uint256 indexCounter;\\n\\n        for (uint256 i = 0; i < upperBound - lowerBound + 1; i++) {\\n            if (takeProfit.checkTakeProfit(takeProfit.indexTokenToTokenId(lowerBound + i))) {\\n                upkeepNeeded = true;\\n                indexes[indexCounter] = takeProfit.indexTokenToTokenId(lowerBound + i);\\n                indexCounter++;\\n                if (indexCounter == counter) {\\n                    break;\\n                }\\n            }\\n        }\\n        performData = abi.encode(indexes);\\n        return (upkeepNeeded, performData);\\n    }\\n\\n    function performUpkeep(bytes calldata performData) external override {\\n        (uint256[] memory indexes) = abi.decode(\\n            performData,\\n            (uint256[])\\n        );\\n        for (uint256 i = 0; i < indexes.length; i++) {\\n            if (takeProfit.checkTakeProfit(indexes[i])) {\\n                takeProfit.executeTakeProfit(indexes[i]);\\n            }\\n        }\\n    }\\n}\\n\",\"keccak256\":\"0x6f374eaf46d7d935daf14c54321de976d845685016bf452319a6ac0fae680982\",\"license\":\"GPL-3.0-or-later\"}},\"version\":1}",
+  "bytecode": "0x60806040523480156200001157600080fd5b5060405162001453380380620014538339818101604052810190620000379190620001d5565b620000576200004b6200009f60201b60201c565b620000a760201b60201c565b80600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055505062000207565b600033905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508173ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a35050565b600080fd5b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b60006200019d8262000170565b9050919050565b620001af8162000190565b8114620001bb57600080fd5b50565b600081519050620001cf81620001a4565b92915050565b600060208284031215620001ee57620001ed6200016b565b5b6000620001fe84828501620001be565b91505092915050565b61123c80620002176000396000f3fe608060405234801561001057600080fd5b50600436106100625760003560e01c80634585e33b146100675780636e04ff0d1461008357806370c10578146100b4578063715018a6146100d25780638da5cb5b146100dc578063f2fde38b146100fa575b600080fd5b610081600480360381019061007c91906109f0565b610116565b005b61009d600480360381019061009891906109f0565b6102b1565b6040516100ab929190610ae8565b60405180910390f35b6100bc610747565b6040516100c99190610b97565b60405180910390f35b6100da61076d565b005b6100e4610781565b6040516100f19190610bd3565b60405180910390f35b610114600480360381019061010f9190610c1a565b6107aa565b005b600082828101906101279190610dbb565b905060005b81518110156102ab57600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a0982e2c83838151811061018657610185610e04565b5b60200260200101516040518263ffffffff1660e01b81526004016101aa9190610e42565b602060405180830381865afa1580156101c7573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101eb9190610e89565b1561029857600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166352e80c6483838151811061024157610240610e04565b5b60200260200101516040518263ffffffff1660e01b81526004016102659190610e42565b600060405180830381600087803b15801561027f57600080fd5b505af1158015610293573d6000803e3d6000fd5b505050505b80806102a390610ee5565b91505061012c565b50505050565b6000606060008085858101906102c79190610f2d565b91509150600080600090505b600184846102e19190610f6d565b6102eb9190610fa1565b81101561046457600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a0982e2c600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663e233ac58848861037a9190610fa1565b6040518263ffffffff1660e01b81526004016103969190610e42565b602060405180830381865afa1580156103b3573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906103d79190610fea565b6040518263ffffffff1660e01b81526004016103f39190610e42565b602060405180830381865afa158015610410573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906104349190610e89565b1561044857818061044490610ee5565b9250505b600282031561046457808061045c90610ee5565b9150506102d3565b5060008167ffffffffffffffff81111561048157610480610c47565b5b6040519080825280602002602001820160405280156104af5781602001602082028036833780820191505090505b50905060009550600080600090505b600186866104cc9190610f6d565b6104d69190610fa1565b81101561071857600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a0982e2c600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663e233ac58848a6105659190610fa1565b6040518263ffffffff1660e01b81526004016105819190610e42565b602060405180830381865afa15801561059e573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906105c29190610fea565b6040518263ffffffff1660e01b81526004016105de9190610e42565b602060405180830381865afa1580156105fb573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061061f9190610e89565b156107055760019750600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663e233ac5882886106729190610fa1565b6040518263ffffffff1660e01b815260040161068e9190610e42565b602060405180830381865afa1580156106ab573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906106cf9190610fea565b8383815181106106e2576106e1610e04565b5b60200260200101818152505081806106f990610ee5565b92505083820315610718575b808061071090610ee5565b9150506104be565b508160405160200161072a91906110d5565b604051602081830303815290604052955050505050509250929050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b61077561082d565b61077f60006108ab565b565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b6107b261082d565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1603610821576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016108189061117a565b60405180910390fd5b61082a816108ab565b50565b61083561096f565b73ffffffffffffffffffffffffffffffffffffffff16610853610781565b73ffffffffffffffffffffffffffffffffffffffff16146108a9576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016108a0906111e6565b60405180910390fd5b565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508173ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a35050565b600033905090565b6000604051905090565b600080fd5b600080fd5b600080fd5b600080fd5b600080fd5b60008083601f8401126109b0576109af61098b565b5b8235905067ffffffffffffffff8111156109cd576109cc610990565b5b6020830191508360018202830111156109e9576109e8610995565b5b9250929050565b60008060208385031215610a0757610a06610981565b5b600083013567ffffffffffffffff811115610a2557610a24610986565b5b610a318582860161099a565b92509250509250929050565b60008115159050919050565b610a5281610a3d565b82525050565b600081519050919050565b600082825260208201905092915050565b60005b83811015610a92578082015181840152602081019050610a77565b60008484015250505050565b6000601f19601f8301169050919050565b6000610aba82610a58565b610ac48185610a63565b9350610ad4818560208601610a74565b610add81610a9e565b840191505092915050565b6000604082019050610afd6000830185610a49565b8181036020830152610b0f8184610aaf565b90509392505050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b6000610b5d610b58610b5384610b18565b610b38565b610b18565b9050919050565b6000610b6f82610b42565b9050919050565b6000610b8182610b64565b9050919050565b610b9181610b76565b82525050565b6000602082019050610bac6000830184610b88565b92915050565b6000610bbd82610b18565b9050919050565b610bcd81610bb2565b82525050565b6000602082019050610be86000830184610bc4565b92915050565b610bf781610bb2565b8114610c0257600080fd5b50565b600081359050610c1481610bee565b92915050565b600060208284031215610c3057610c2f610981565b5b6000610c3e84828501610c05565b91505092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b610c7f82610a9e565b810181811067ffffffffffffffff82111715610c9e57610c9d610c47565b5b80604052505050565b6000610cb1610977565b9050610cbd8282610c76565b919050565b600067ffffffffffffffff821115610cdd57610cdc610c47565b5b602082029050602081019050919050565b6000819050919050565b610d0181610cee565b8114610d0c57600080fd5b50565b600081359050610d1e81610cf8565b92915050565b6000610d37610d3284610cc2565b610ca7565b90508083825260208201905060208402830185811115610d5a57610d59610995565b5b835b81811015610d835780610d6f8882610d0f565b845260208401935050602081019050610d5c565b5050509392505050565b600082601f830112610da257610da161098b565b5b8135610db2848260208601610d24565b91505092915050565b600060208284031215610dd157610dd0610981565b5b600082013567ffffffffffffffff811115610def57610dee610986565b5b610dfb84828501610d8d565b91505092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b610e3c81610cee565b82525050565b6000602082019050610e576000830184610e33565b92915050565b610e6681610a3d565b8114610e7157600080fd5b50565b600081519050610e8381610e5d565b92915050565b600060208284031215610e9f57610e9e610981565b5b6000610ead84828501610e74565b91505092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b6000610ef082610cee565b91507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8203610f2257610f21610eb6565b5b600182019050919050565b60008060408385031215610f4457610f43610981565b5b6000610f5285828601610d0f565b9250506020610f6385828601610d0f565b9150509250929050565b6000610f7882610cee565b9150610f8383610cee565b9250828203905081811115610f9b57610f9a610eb6565b5b92915050565b6000610fac82610cee565b9150610fb783610cee565b9250828201905080821115610fcf57610fce610eb6565b5b92915050565b600081519050610fe481610cf8565b92915050565b60006020828403121561100057610fff610981565b5b600061100e84828501610fd5565b91505092915050565b600081519050919050565b600082825260208201905092915050565b6000819050602082019050919050565b61104c81610cee565b82525050565b600061105e8383611043565b60208301905092915050565b6000602082019050919050565b600061108282611017565b61108c8185611022565b935061109783611033565b8060005b838110156110c85781516110af8882611052565b97506110ba8361106a565b92505060018101905061109b565b5085935050505092915050565b600060208201905081810360008301526110ef8184611077565b905092915050565b600082825260208201905092915050565b7f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160008201527f6464726573730000000000000000000000000000000000000000000000000000602082015250565b60006111646026836110f7565b915061116f82611108565b604082019050919050565b6000602082019050818103600083015261119381611157565b9050919050565b7f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572600082015250565b60006111d06020836110f7565b91506111db8261119a565b602082019050919050565b600060208201905081810360008301526111ff816111c3565b905091905056fea2646970667358221220dc993528021e2fcc1eb125e1ef2f54bcc206d8cddb1f99f6b17899029f668b6364736f6c63430008120033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100625760003560e01c80634585e33b146100675780636e04ff0d1461008357806370c10578146100b4578063715018a6146100d25780638da5cb5b146100dc578063f2fde38b146100fa575b600080fd5b610081600480360381019061007c91906109f0565b610116565b005b61009d600480360381019061009891906109f0565b6102b1565b6040516100ab929190610ae8565b60405180910390f35b6100bc610747565b6040516100c99190610b97565b60405180910390f35b6100da61076d565b005b6100e4610781565b6040516100f19190610bd3565b60405180910390f35b610114600480360381019061010f9190610c1a565b6107aa565b005b600082828101906101279190610dbb565b905060005b81518110156102ab57600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a0982e2c83838151811061018657610185610e04565b5b60200260200101516040518263ffffffff1660e01b81526004016101aa9190610e42565b602060405180830381865afa1580156101c7573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101eb9190610e89565b1561029857600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166352e80c6483838151811061024157610240610e04565b5b60200260200101516040518263ffffffff1660e01b81526004016102659190610e42565b600060405180830381600087803b15801561027f57600080fd5b505af1158015610293573d6000803e3d6000fd5b505050505b80806102a390610ee5565b91505061012c565b50505050565b6000606060008085858101906102c79190610f2d565b91509150600080600090505b600184846102e19190610f6d565b6102eb9190610fa1565b81101561046457600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a0982e2c600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663e233ac58848861037a9190610fa1565b6040518263ffffffff1660e01b81526004016103969190610e42565b602060405180830381865afa1580156103b3573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906103d79190610fea565b6040518263ffffffff1660e01b81526004016103f39190610e42565b602060405180830381865afa158015610410573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906104349190610e89565b1561044857818061044490610ee5565b9250505b600282031561046457808061045c90610ee5565b9150506102d3565b5060008167ffffffffffffffff81111561048157610480610c47565b5b6040519080825280602002602001820160405280156104af5781602001602082028036833780820191505090505b50905060009550600080600090505b600186866104cc9190610f6d565b6104d69190610fa1565b81101561071857600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663a0982e2c600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663e233ac58848a6105659190610fa1565b6040518263ffffffff1660e01b81526004016105819190610e42565b602060405180830381865afa15801561059e573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906105c29190610fea565b6040518263ffffffff1660e01b81526004016105de9190610e42565b602060405180830381865afa1580156105fb573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061061f9190610e89565b156107055760019750600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663e233ac5882886106729190610fa1565b6040518263ffffffff1660e01b815260040161068e9190610e42565b602060405180830381865afa1580156106ab573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906106cf9190610fea565b8383815181106106e2576106e1610e04565b5b60200260200101818152505081806106f990610ee5565b92505083820315610718575b808061071090610ee5565b9150506104be565b508160405160200161072a91906110d5565b604051602081830303815290604052955050505050509250929050565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b61077561082d565b61077f60006108ab565b565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b6107b261082d565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff1603610821576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016108189061117a565b60405180910390fd5b61082a816108ab565b50565b61083561096f565b73ffffffffffffffffffffffffffffffffffffffff16610853610781565b73ffffffffffffffffffffffffffffffffffffffff16146108a9576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016108a0906111e6565b60405180910390fd5b565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff169050816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508173ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a35050565b600033905090565b6000604051905090565b600080fd5b600080fd5b600080fd5b600080fd5b600080fd5b60008083601f8401126109b0576109af61098b565b5b8235905067ffffffffffffffff8111156109cd576109cc610990565b5b6020830191508360018202830111156109e9576109e8610995565b5b9250929050565b60008060208385031215610a0757610a06610981565b5b600083013567ffffffffffffffff811115610a2557610a24610986565b5b610a318582860161099a565b92509250509250929050565b60008115159050919050565b610a5281610a3d565b82525050565b600081519050919050565b600082825260208201905092915050565b60005b83811015610a92578082015181840152602081019050610a77565b60008484015250505050565b6000601f19601f8301169050919050565b6000610aba82610a58565b610ac48185610a63565b9350610ad4818560208601610a74565b610add81610a9e565b840191505092915050565b6000604082019050610afd6000830185610a49565b8181036020830152610b0f8184610aaf565b90509392505050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b6000610b5d610b58610b5384610b18565b610b38565b610b18565b9050919050565b6000610b6f82610b42565b9050919050565b6000610b8182610b64565b9050919050565b610b9181610b76565b82525050565b6000602082019050610bac6000830184610b88565b92915050565b6000610bbd82610b18565b9050919050565b610bcd81610bb2565b82525050565b6000602082019050610be86000830184610bc4565b92915050565b610bf781610bb2565b8114610c0257600080fd5b50565b600081359050610c1481610bee565b92915050565b600060208284031215610c3057610c2f610981565b5b6000610c3e84828501610c05565b91505092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b610c7f82610a9e565b810181811067ffffffffffffffff82111715610c9e57610c9d610c47565b5b80604052505050565b6000610cb1610977565b9050610cbd8282610c76565b919050565b600067ffffffffffffffff821115610cdd57610cdc610c47565b5b602082029050602081019050919050565b6000819050919050565b610d0181610cee565b8114610d0c57600080fd5b50565b600081359050610d1e81610cf8565b92915050565b6000610d37610d3284610cc2565b610ca7565b90508083825260208201905060208402830185811115610d5a57610d59610995565b5b835b81811015610d835780610d6f8882610d0f565b845260208401935050602081019050610d5c565b5050509392505050565b600082601f830112610da257610da161098b565b5b8135610db2848260208601610d24565b91505092915050565b600060208284031215610dd157610dd0610981565b5b600082013567ffffffffffffffff811115610def57610dee610986565b5b610dfb84828501610d8d565b91505092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b610e3c81610cee565b82525050565b6000602082019050610e576000830184610e33565b92915050565b610e6681610a3d565b8114610e7157600080fd5b50565b600081519050610e8381610e5d565b92915050565b600060208284031215610e9f57610e9e610981565b5b6000610ead84828501610e74565b91505092915050565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b6000610ef082610cee565b91507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff8203610f2257610f21610eb6565b5b600182019050919050565b60008060408385031215610f4457610f43610981565b5b6000610f5285828601610d0f565b9250506020610f6385828601610d0f565b9150509250929050565b6000610f7882610cee565b9150610f8383610cee565b9250828203905081811115610f9b57610f9a610eb6565b5b92915050565b6000610fac82610cee565b9150610fb783610cee565b9250828201905080821115610fcf57610fce610eb6565b5b92915050565b600081519050610fe481610cf8565b92915050565b60006020828403121561100057610fff610981565b5b600061100e84828501610fd5565b91505092915050565b600081519050919050565b600082825260208201905092915050565b6000819050602082019050919050565b61104c81610cee565b82525050565b600061105e8383611043565b60208301905092915050565b6000602082019050919050565b600061108282611017565b61108c8185611022565b935061109783611033565b8060005b838110156110c85781516110af8882611052565b97506110ba8361106a565b92505060018101905061109b565b5085935050505092915050565b600060208201905081810360008301526110ef8184611077565b905092915050565b600082825260208201905092915050565b7f4f776e61626c653a206e6577206f776e657220697320746865207a65726f206160008201527f6464726573730000000000000000000000000000000000000000000000000000602082015250565b60006111646026836110f7565b915061116f82611108565b604082019050919050565b6000602082019050818103600083015261119381611157565b9050919050565b7f4f776e61626c653a2063616c6c6572206973206e6f7420746865206f776e6572600082015250565b60006111d06020836110f7565b91506111db8261119a565b602082019050919050565b600060208201905081810360008301526111ff816111c3565b905091905056fea2646970667358221220dc993528021e2fcc1eb125e1ef2f54bcc206d8cddb1f99f6b17899029f668b6364736f6c63430008120033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {
+      "checkUpkeep(bytes)": {
+        "details": "To ensure that it is never called, you may want to add the cannotExecute modifier from KeeperBase to your implementation of this method.",
+        "params": {
+          "checkData": "specified in the upkeep registration so it is always the same for a registered upkeep. This can easily be broken down into specific arguments using `abi.decode`, so multiple upkeeps can be registered on the same contract and easily differentiated by the contract."
+        },
+        "returns": {
+          "performData": "bytes that the keeper should call performUpkeep with, if upkeep is needed. If you would like to encode data to decode later, try `abi.encode`.",
+          "upkeepNeeded": "boolean to indicate whether the keeper should call performUpkeep or not."
+        }
+      },
+      "owner()": {
+        "details": "Returns the address of the current owner."
+      },
+      "performUpkeep(bytes)": {
+        "details": "The input to this method should not be trusted, and the caller of the method should not even be restricted to any single registry. Anyone should be able call it, and the input should be validated, there is no guarantee that the data passed in is the performData returned from checkUpkeep. This could happen due to malicious keepers, racing keepers, or simply a state change while the performUpkeep transaction is waiting for confirmation. Always validate the data passed in.",
+        "params": {
+          "performData": "is the data which was passed back from the checkData simulation. If it is encoded, it can easily be decoded into other types by calling `abi.decode`. This data should not be trusted, and should be validated against the contract's current state."
+        }
+      },
+      "renounceOwnership()": {
+        "details": "Leaves the contract without owner. It will not be possible to call `onlyOwner` functions anymore. Can only be called by the current owner. NOTE: Renouncing ownership will leave the contract without an owner, thereby removing any functionality that is only available to the owner."
+      },
+      "transferOwnership(address)": {
+        "details": "Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner."
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {
+      "checkUpkeep(bytes)": {
+        "notice": "method that is simulated by the keepers to see if any work actually needs to be performed. This method does does not actually need to be executable, and since it is only ever simulated it can consume lots of gas."
+      },
+      "performUpkeep(bytes)": {
+        "notice": "method that is actually executed by the keepers, via the registry. The data returned by the checkUpkeep simulation will be passed into this method to actually be executed."
+      }
+    },
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 72,
+        "contract": "contracts/Upkeep.sol:UpkeepTakeProfit",
+        "label": "_owner",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_address"
+      },
+      {
+        "astId": 1081,
+        "contract": "contracts/Upkeep.sol:UpkeepTakeProfit",
+        "label": "takeProfit",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_contract(ITakeProfit)1074"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_contract(ITakeProfit)1074": {
+        "encoding": "inplace",
+        "label": "contract ITakeProfit",
+        "numberOfBytes": "20"
+      }
+    }
+  }
+}
